@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "857052492918",
+    "project_id": "rdlm-6941d",
+    "storage_bucket": "rdlm-6941d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857052492918:android:ae16a58f2e6035ac9edb57",
+        "android_client_info": {
+          "package_name": "com.example.restaurantdelamente"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADcpYPUipFq_RA7azYDI77fUL_n6z-nK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

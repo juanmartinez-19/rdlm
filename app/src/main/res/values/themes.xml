@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.RestaurantDeLaMente" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Dark variant of the primary brand color -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- Color of the navigation elements -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Texto y íconos de la Toolbar -->
+        <item name="android:colorPrimary">@android:color/white</item>
+    </style>
+
+</resources>
