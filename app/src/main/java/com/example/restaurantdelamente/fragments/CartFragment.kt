@@ -27,11 +27,12 @@ import java.util.Locale
 class CartFragment : Fragment() {
 
     private lateinit var viewModel: CartViewModel
+    //Screen Vars
     private lateinit var recyclerCart: RecyclerView
     private lateinit var btnCheckout: Button
-    private lateinit var cartAdapter: CartAdapter
     lateinit var tvTotalValue : TextView
-    private val cartItems = mutableListOf<ItemProduct>()
+
+    private lateinit var cartAdapter: CartAdapter
     // State
     lateinit var progressBar : ProgressBar
     lateinit var textViewError : TextView
@@ -91,6 +92,11 @@ class CartFragment : Fragment() {
 
         // Observar el estado de la vista
        this.observeState()
+
+
+        btnCheckout.setOnClickListener {
+            println("Checkout")
+        }
     }
 
     private fun increase(item : ItemProductWithDetails) {
