@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Restaurant de la Mente</string>
     <string name="title_activity_home">Home</string>
+    <string name="error_al_cargar_productos">Error al cargar productos</string>
 </resources>

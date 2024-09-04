@@ -25,7 +25,7 @@ class ProductAdapter(
             this.v = view
         }
 
-        fun setPtoductName(name : String)  {
+        fun setProductName(name : String)  {
             val txtTitle : TextView = v.findViewById(R.id.tvProductName)
             txtTitle.text = name
         }
@@ -71,7 +71,7 @@ class ProductAdapter(
     }
 
     override fun onBindViewHolder(holder: ProductHolder, position: Int) {
-        products[position].getProductName()?.let { holder.setPtoductName(it) }
+        products[position].getProductName()?.let { holder.setProductName(it) }
         products[position].getProductPrice()?.let { holder.setProductPrice(it) }
         products[position].getProductUrlImage()?.let { holder.setProductImage(it) }
         holder.itemView.setOnClickListener() {
